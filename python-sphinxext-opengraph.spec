@@ -7,6 +7,8 @@ URL:		https://pypi.org/project/sphinxext-opengraph/
 License:	BSD-3-Clause
 Group:		Development/Python
 BuildRequires:	python
+BuildRequires:  python%{pyver}dist(sphinx)
+BuildRequires:  python%{pyver}dist(matplotlib)
 BuildSystem:	python
 BuildArch:	noarch
 
