@@ -6,11 +6,17 @@ Summary:	Sphinx Extension to enable OGP support
 URL:		https://pypi.org/project/sphinxext-opengraph/
 License:	BSD-3-Clause
 Group:		Development/Python
+
 BuildRequires:	python
 BuildRequires:  python%{pyver}dist(sphinx)
 BuildRequires:  python%{pyver}dist(matplotlib)
+
 BuildSystem:	python
 BuildArch:	noarch
+
+Requires:   python%{pyver}dist(sphinx)
+Requires:   python%{pyver}dist(sphinx-design)
+Requires:   python%{pyver}dist(furo)
 
 %description
 Sphinx Extension to enable OGP support
