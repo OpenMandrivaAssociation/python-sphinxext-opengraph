@@ -1,6 +1,6 @@
 Name:		python-sphinxext-opengraph
 Version:	0.13.0
-Release:	1
+Release:	2
 Source0:	https://files.pythonhosted.org/packages/source/s/sphinxext-opengraph/sphinxext_opengraph-%{version}.tar.gz
 Summary:	Sphinx Extension to enable OGP support
 URL:		https://pypi.org/project/sphinxext-opengraph/
