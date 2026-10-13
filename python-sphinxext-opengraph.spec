@@ -15,8 +15,6 @@ BuildSystem:	python
 BuildArch:	noarch
 
 Requires:   python%{pyver}dist(sphinx)
-Requires:   python%{pyver}dist(sphinx-design)
-Requires:   python%{pyver}dist(furo)
 
 %description
 Sphinx Extension to enable OGP support
